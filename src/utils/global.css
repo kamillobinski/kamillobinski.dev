@@ -1,0 +1,15 @@
+html {
+  --primary-color: #932eff;
+  --background-color: #101214;
+  --title-color: #ffffff;
+  --text-color: #7a7c80;
+  --ruler-color: #adb0b6;
+}
+
+html[data-theme="light"] {
+  --primary-color: #932eff;
+  --background-color: #ffffff;
+  --title-color: #666666;
+  --text-color: #7a7c80;
+  --ruler-color: #adb0b6;
+}

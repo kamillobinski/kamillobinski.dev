@@ -1,0 +1,29 @@
+@import url("../utils/global.css");
+
+.left-content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-content-inner {
+  text-align: center;
+  margin-right: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .left-content {
+    justify-content: center;
+    height: auto;
+    margin-top: 70px;
+    text-align: left;
+  }
+
+  .left-content-inner {
+    margin-right: 0px;
+  }
+}

@@ -1,0 +1,19 @@
+@import url("../utils/global.css");
+
+.avatar-box {
+  width: 430px;
+}
+
+.avatar {
+  width: 57px;
+  height: 57px;
+  border: 1px solid var(--primary-color);
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .avatar-box {
+    width: 70px;
+    text-align: left;
+  }
+}

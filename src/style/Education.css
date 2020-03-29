@@ -1,0 +1,40 @@
+@import url("../utils/global.css");
+
+.education {
+  width: 430px;
+  margin-bottom: 20px;
+}
+
+.education p {
+  margin: 0;
+  margin-top: 5px;
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+}
+
+.education-ruler {
+  position: absolute;
+  margin-top: -13px;
+  padding-left: 129px;
+}
+
+.line {
+  height: 15px;
+  margin-top: 5px;
+  margin-top: -1px;
+  border-left: 1px solid var(--ruler-color);
+}
+
+.circle {
+  width: 7px;
+  height: 7px;
+  margin-left: -4px;
+  border: 1px solid var(--ruler-color);
+  border-radius: 50%;
+}
+
+.education-place {
+  margin-left: 40px;
+}

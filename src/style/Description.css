@@ -1,0 +1,20 @@
+@import url("../utils/global.css");
+
+.description {
+  width: 430px;
+  margin-top: 20px;
+}
+
+.description p {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+}
+
+@media only screen and (max-width: 1024px) {
+  .description {
+    margin-top: 0px;
+    text-align: left;
+  }
+}

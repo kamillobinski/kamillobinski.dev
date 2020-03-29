@@ -1,0 +1,21 @@
+.social-media {
+  margin-top: 24px;
+}
+
+.social-media-icon {
+  width: 18px;
+  margin: 0px 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .social-media {
+    float: left;
+    margin-top: 12px;
+  }
+
+  .social-media-icon {
+    width: 18px;
+    margin: 0px 0px;
+    margin-right: 16px;
+  }
+}

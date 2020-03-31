@@ -33,19 +33,19 @@ const Projects = () => {
   return (
     <div className="projects">
       <Title content={projectsTitle} />
-      <a href={projectsItemFirst[1]} target="_blank">
+      <a href={projectsItemFirst[1]} target="_blank" rel="noopener noreferrer">
         <p className="item">{projectsItemFirst[0]}</p>
       </a>
-      <a href={projectsItemSecond[1]} target="_blank">
+      <a href={projectsItemSecond[1]} target="_blank" rel="noopener noreferrer">
         <p className="item">{projectsItemSecond[0]}</p>
       </a>
-      <a href={projectsItemThird[1]} target="_blank">
+      <a href={projectsItemThird[1]} target="_blank" rel="noopener noreferrer">
         <p className="item">{projectsItemThird[0]}</p>
       </a>
-      <a href={projectsItemFourth[1]} target="_blank">
+      <a href={projectsItemFourth[1]} target="_blank" rel="noopener noreferrer">
         <p className="item">{projectsItemFourth[0]}.</p>
       </a>
-      <a href={projectsItemFifth[1]} target="_blank">
+      <a href={projectsItemFifth[1]} target="_blank" rel="noopener noreferrer">
         <p className="item">{projectsItemFifth[0]}</p>
       </a>{" "}
       <ButtonMore content={projectsButtonText} link={projectsButtonUrl} />

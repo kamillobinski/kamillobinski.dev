@@ -5,6 +5,7 @@ import "../style/Education.css";
 const educationTitle = "Education";
 const educationYear = "2017 - currently";
 const educationPlace = "Mazovian Public College in Plock";
+const educationDegree = "BSc. of Computer Science";
 
 const Education = () => {
   return (
@@ -13,6 +14,7 @@ const Education = () => {
       <p>
         <span className="education-year">{educationYear}</span>
         <span className="education-place">{educationPlace}</span>
+        <span className="education-degree">{educationDegree}</span>
       </p>
       <div className="education-ruler">
         <div className="circle"></div>

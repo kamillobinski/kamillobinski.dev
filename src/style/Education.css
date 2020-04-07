@@ -43,3 +43,9 @@
   border: 1px solid var(--ruler-color);
   border-radius: 50%;
 }
+
+@media only screen and (max-width: 500px) {
+  .education {
+    width: 90vw;
+  }
+}

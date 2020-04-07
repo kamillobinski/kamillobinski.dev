@@ -24,3 +24,9 @@
   color: var(--primary-color);
   transition: 0.15s ease-out;
 }
+
+@media only screen and (max-width: 500px) {
+  .projects {
+    width: 90vw;
+  }
+}

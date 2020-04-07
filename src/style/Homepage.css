@@ -25,20 +25,37 @@
   .homepage {
     display: grid;
     grid-gap: 0px;
-    grid-auto-rows: minmax(100px, 380px);
+    grid-auto-rows: minmax(100px, auto);
     grid-template-columns: repeat(1, 1fr);
   }
 
   .homepage-first-col {
-    height: 300px;
+    height: 415px;
+    min-height: fit-content;
     min-width: 100%;
     grid-column: 1;
     grid-row: 1;
   }
 
   .homepage-second-col {
-    height: 300px;
+    height: auto;
+    min-height: fit-content;
     grid-column: 1;
     grid-row: 2;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .homepage {
+    display: block;
+  }
+
+  .homepage-first-col {
+    height: auto;
+  }
+
+  .homepage-second-col {
+    height: auto;
+    margin-top: 37px;
   }
 }

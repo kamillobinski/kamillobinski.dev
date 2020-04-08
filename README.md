@@ -1,5 +1,14 @@
 # kamillobinski.dev
 
+<p align="left">
+<img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/kamillobinski/kamillobinski.dev">
+<img alt="Github repo size" src="https://img.shields.io/github/repo-size/kamillobinski/kamillobinski.dev">
+<img alt="Website" src="https://img.shields.io/website?down_color=lightgrey&down_message=down&up_color=purple&up_message=running&url=https%3A%2F%2Fkamillobinski.dev">
+<img alt="Github commit" src="https://img.shields.io/github/last-commit/kamillobinski/kamillobinski.dev">
+<img alt="GitHub issues" src="https://img.shields.io/github/issues/kamillobinski/kamillobinski.dev">
+<img alt="GitHub license" src="https://img.shields.io/github/license/kamillobinski/kamillobinski.dev">
+</p>
+
 A lightweight, single-page personal portfolio website built with React.
 
 ## Preview

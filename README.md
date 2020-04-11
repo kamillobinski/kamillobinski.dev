@@ -11,7 +11,9 @@
 
 A lightweight, single-page personal portfolio website built with React.
 
-![website-kamillobinskidev-screenshot](C:\Users\Kamil\Desktop\website-kamillobinskidev-screenshot.png)
+## Preview
+
+![website-kamillobinskidev-screenshot](https://raw.githubusercontent.com/kamillobinski/kamillobinski.dev/master/src/utils/images/website-kamillobinskidev-screenshot.png)
 
 ## Features
 
@@ -23,8 +25,6 @@ A lightweight, single-page personal portfolio website built with React.
 
 ### 0.1.2
 
-- Improved svg rendering
-- Added svg hover event
 - Changed mobile layout
 
 ### 0.1.1

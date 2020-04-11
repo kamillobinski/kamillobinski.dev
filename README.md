@@ -25,6 +25,8 @@ A lightweight, single-page personal portfolio website built with React.
 
 ### 0.1.2
 
+- Improved svg rendering
+- Added svg hover event
 - Changed mobile layout
 
 ### 0.1.1

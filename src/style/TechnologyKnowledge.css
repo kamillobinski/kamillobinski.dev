@@ -17,8 +17,8 @@
 }
 
 .technology-knowledge-name {
-  width: 100%;
-  max-width: 100%;
+  width: 150px;
+  max-width: 150px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;

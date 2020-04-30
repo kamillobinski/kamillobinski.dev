@@ -23,7 +23,7 @@ A lightweight, single-page personal portfolio website built with React.
 
 ## Changelog
 
-### 0.0.3
+### 0.1.3
 
 - Added new section with progress bars
 

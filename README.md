@@ -25,6 +25,9 @@ A lightweight, single-page personal portfolio website built with React.
 
 ### 0.1.3
 
+- Added fetching recent projects from database
+- Added Node.js server on Heroku
+- Added MySQL database on Heroku
 - Added new section with progress bars
 
 ### 0.1.2

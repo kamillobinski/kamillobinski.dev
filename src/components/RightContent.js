@@ -1,5 +1,6 @@
 import React from "react";
 import Education from "./Education";
+import TechnologyKnowledge from "./TechnologyKnowledge";
 import Toolbox from "./Toolbox";
 import Projects from "./Projects.js";
 import Version from "./Version";
@@ -10,6 +11,7 @@ const RightContent = () => {
     <div className="right-content">
       <div className="right-content-inner">
         <Education />
+        <TechnologyKnowledge />
         <Toolbox />
         <Projects />
         <Version />

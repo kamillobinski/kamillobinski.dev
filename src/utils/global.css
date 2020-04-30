@@ -4,6 +4,8 @@ html {
   --title-color: #ffffff;
   --text-color: #7a7c80;
   --ruler-color: #adb0b6;
+  --progress-color: #454955;
+  --progress-fill: #ffffff;
 }
 
 html[data-theme="light"] {
@@ -12,4 +14,6 @@ html[data-theme="light"] {
   --title-color: #666666;
   --text-color: #7a7c80;
   --ruler-color: #adb0b6;
+  --progress-color: #bfbfbf;
+  --progress-fill: #932eff;
 }

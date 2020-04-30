@@ -1,0 +1,31 @@
+.progressbar {
+  width: 100%;
+}
+
+.progressbar-back {
+  width: 260px;
+  height: 5px;
+  float: right;
+  margin-right: 40px;
+  border-radius: 4px;
+  background-color: var(--progress-color);
+  overflow: hidden;
+}
+
+.progressbar-fill {
+  width: 0;
+  height: 5px;
+  max-width: 100%;
+  border-radius: 4px;
+  background-color: var(--progress-fill);
+  animation: slidein 3s ease;
+}
+
+@keyframes slidein {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

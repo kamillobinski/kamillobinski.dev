@@ -10,7 +10,7 @@ const toolboxItemFirst = [
   "Maven",
   "Spring",
   "JSP",
-  "JSF"
+  "JSF",
 ];
 const toolboxItemSecond = ["HTML", "CSS / CSS3", "JavaScript", "React.js"];
 const toolboxItemThird = ["Flutter", "Python", "PyQt5"];
@@ -19,7 +19,7 @@ const toolboxItemFourth = [
   "Github",
   "Visual Studio Code",
   "Netbeans",
-  "XAMPP"
+  "XAMPP",
 ];
 
 class Toolbox extends React.Component {
@@ -30,33 +30,33 @@ class Toolbox extends React.Component {
       toolboxItemFirst: toolboxItemFirst,
       toolboxItemSecond: toolboxItemSecond,
       toolboxItemThird: toolboxItemThird,
-      toolboxItemFourth: toolboxItemFourth
+      toolboxItemFourth: toolboxItemFourth,
     };
   }
 
   render() {
     return (
       <div className="toolbox">
-        <Title content="My toolbox" />
+        <Title content="Complete toolbox" />
 
         <p className="toolbox-item">
-          {this.state.toolboxItemFirst.map(item => (
+          {this.state.toolboxItemFirst.map((item) => (
             <Tool key={item} content={item} />
           ))}
         </p>
 
         <p className="toolbox-item">
-          {this.state.toolboxItemSecond.map(item => (
+          {this.state.toolboxItemSecond.map((item) => (
             <Tool key={item} content={item} />
           ))}
         </p>
         <p className="toolbox-item">
-          {this.state.toolboxItemThird.map(item => (
+          {this.state.toolboxItemThird.map((item) => (
             <Tool key={item} content={item} />
           ))}
         </p>
         <p className="toolbox-item">
-          {this.state.toolboxItemFourth.map(item => (
+          {this.state.toolboxItemFourth.map((item) => (
             <Tool key={item} content={item} />
           ))}
         </p>

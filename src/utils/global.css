@@ -4,8 +4,10 @@ html {
   --title-color: #ffffff;
   --text-color: #7a7c80;
   --ruler-color: #adb0b6;
-  --progress-color: #454955;
+  --progress-color: #454954;
   --progress-fill: #ffffff;
+  --avatar: url("./images/avatar-dark.png");
+  --avatar-circle-color: #ffffff;
 }
 
 html[data-theme="light"] {
@@ -16,4 +18,6 @@ html[data-theme="light"] {
   --ruler-color: #adb0b6;
   --progress-color: #bfbfbf;
   --progress-fill: #932eff;
+  --avatar: url("./images/avatar.png");
+  --avatar-circle-color: #932eff;
 }

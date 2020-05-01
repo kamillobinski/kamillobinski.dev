@@ -6,9 +6,13 @@
 
 .avatar {
   width: 57px;
+  min-width: 57px;
   height: 57px;
-  border: 1px solid var(--primary-color);
+  min-height: 57px;
+  margin: 0 auto;
+  border: 1px solid var(--avatar-circle-color);
   border-radius: 50%;
+  background-image: var(--avatar);
 }
 
 @media only screen and (max-width: 1024px) {

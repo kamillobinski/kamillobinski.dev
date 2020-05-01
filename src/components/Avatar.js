@@ -1,11 +1,12 @@
 import React from "react";
 import avatar from "../utils/images/avatar.png";
 import "../style/Avatar.css";
+import "../utils/global.css";
 
 const Avatar = () => {
   return (
     <div className="avatar-box">
-      <img className="avatar" src={avatar} alt="avatar" />
+      <p className="avatar" alt="avatar"></p>
     </div>
   );
 };

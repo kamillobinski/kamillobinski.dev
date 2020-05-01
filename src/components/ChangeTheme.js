@@ -5,7 +5,7 @@ import "../style/ChangeTheme.css";
 class ChangeTheme extends React.Component {
   state = {
     checked: localStorage.getItem("theme") === "light" ? true : false,
-    theme: localStorage.getItem("theme")
+    theme: localStorage.getItem("theme"),
   };
 
   componentDidMount() {
@@ -22,7 +22,7 @@ class ChangeTheme extends React.Component {
         .getElementsByTagName("HTML")[0]
         .setAttribute("data-theme", localStorage.getItem("theme"));
       this.setState({
-        checked: true
+        checked: true,
       });
     } else {
       localStorage.setItem("theme", "dark");
@@ -30,7 +30,7 @@ class ChangeTheme extends React.Component {
         .getElementsByTagName("HTML")[0]
         .setAttribute("data-theme", localStorage.getItem("theme"));
       this.setState({
-        checked: false
+        checked: false,
       });
     }
   };

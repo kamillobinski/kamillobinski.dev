@@ -1,5 +1,4 @@
 import React from "react";
-import avatar from "../utils/images/avatar.png";
 import "../style/Avatar.css";
 import "../utils/global.css";
 

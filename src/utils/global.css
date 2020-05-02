@@ -11,6 +11,7 @@ html[data-theme="dark"] {
   --content-placeholder-background-color: #2c2d2e;
   --content-placeholder-animation-outer-color: #ffffff00;
   --content-placeholder-animation-middle-color: #ffffff10;
+  --technology-highlight-text-color: #ffffff;
 }
 
 html {
@@ -26,4 +27,5 @@ html {
   --content-placeholder-background-color: #ebebeb;
   --content-placeholder-animation-outer-color: rgba(147, 46, 255, 0);
   --content-placeholder-animation-middle-color: rgba(147, 46, 255, 0.07);
+  --technology-highlight-text-color: #932eff;
 }

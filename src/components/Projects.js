@@ -11,6 +11,22 @@ const projectsButtonText = "More on Github >";
 const projectsButtonUrl = "https://github.com/kamillobinski";
 var isContent = false;
 
+const highlight = "<span class='highlight'>";
+const closeHighlight = "</span>";
+
+var mappingObjects = {
+  JavaFX: highlight + "JavaFX" + closeHighlight,
+  Java: highlight + "Java" + closeHighlight,
+  Hibernate: highlight + "Hibernate" + closeHighlight,
+  React: highlight + "React" + closeHighlight,
+  Node: highlight + "Node" + closeHighlight,
+  MySQL: highlight + "MySQL" + closeHighlight,
+  Python: highlight + "Python" + closeHighlight,
+  Pygame: highlight + "Pygame" + closeHighlight,
+  Dart: highlight + "Dart" + closeHighlight,
+  Flutter: highlight + "Flutter" + closeHighlight,
+};
+
 class Projects extends React.Component {
   constructor(props) {
     super(props);
@@ -28,6 +44,17 @@ class Projects extends React.Component {
     });
   }
 
+  scanTextForTechnologies(text) {
+    var regExp = new RegExp(Object.keys(mappingObjects).join("|"), "gi");
+    var changedText = text.replace(regExp, function (matched) {
+      return mappingObjects[matched];
+    });
+    var highlightedText = (
+      <span dangerouslySetInnerHTML={{ __html: changedText }} />
+    );
+    return highlightedText;
+  }
+
   render() {
     return (
       <div className="projects">
@@ -42,7 +69,7 @@ class Projects extends React.Component {
             >
               <p className="item">
                 <span className="item-name">{data.name}</span> -{" "}
-                {data.description}
+                {this.scanTextForTechnologies(data.description)}
               </p>
             </a>
           ))

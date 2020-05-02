@@ -25,7 +25,12 @@
 
 .item:hover .item-name {
   font-weight: 400;
-  color: var(--primary-color);
+  color: var(--technology-highlight-text-color);
+}
+
+.item:hover .highlight {
+  font-weight: 400;
+  color: var(--technology-highlight-text-color);
 }
 
 @media only screen and (max-width: 500px) {

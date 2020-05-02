@@ -1,4 +1,4 @@
-html {
+html[data-theme="dark"] {
   --primary-color: #932eff;
   --background-color: #101214;
   --title-color: #ffffff;
@@ -13,7 +13,7 @@ html {
   --content-placeholder-animation-middle-color: #ffffff10;
 }
 
-html[data-theme="light"] {
+html {
   --primary-color: #932eff;
   --background-color: #ffffff;
   --title-color: #666666;

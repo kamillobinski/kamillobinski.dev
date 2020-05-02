@@ -4,7 +4,7 @@ import "../style/ChangeTheme.css";
 
 class ChangeTheme extends React.Component {
   state = {
-    checked: localStorage.getItem("theme") === "light" ? true : false,
+    checked: localStorage.getItem("theme") === "dark" ? true : false,
     theme: localStorage.getItem("theme"),
   };
 
@@ -17,7 +17,7 @@ class ChangeTheme extends React.Component {
   toggleThemeChange = () => {
     const { checked } = this.state;
     if (checked === false) {
-      localStorage.setItem("theme", "light");
+      localStorage.setItem("theme", "dark");
       document
         .getElementsByTagName("HTML")[0]
         .setAttribute("data-theme", localStorage.getItem("theme"));
@@ -25,7 +25,7 @@ class ChangeTheme extends React.Component {
         checked: true,
       });
     } else {
-      localStorage.setItem("theme", "dark");
+      localStorage.setItem("theme", "light");
       document
         .getElementsByTagName("HTML")[0]
         .setAttribute("data-theme", localStorage.getItem("theme"));
@@ -38,7 +38,7 @@ class ChangeTheme extends React.Component {
   render() {
     return (
       <div className="switch-outer">
-        <span>Light </span>
+        <span>Dark mode </span>
         <label className="switch">
           <input
             type="checkbox"

@@ -25,6 +25,10 @@ A lightweight, single-page personal portfolio website built with React.
 
 ### 0.1.3
 
+- Placeholders re-render every 3 seconds with random width
+- Added text placeholders in project section
+  - Placeholders will be displayed only when data is being<br/> downloaded from the database or a communication<br/> error occurred
+- Added changeable avatar based on theme
 - Added fetching recent projects from database
 - Added Node.js server on Heroku
 - Added MySQL database on Heroku

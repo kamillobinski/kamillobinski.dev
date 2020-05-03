@@ -18,6 +18,8 @@ A lightweight, single-page personal portfolio website built with React.
 - Fully responsive
 - Color palette stored as variables
 - Toggle between light and dark mode
+- Retrieving data from database using Node.js
+- Animated text placeholders and progress bars
 
 ## Changelog
 
@@ -29,7 +31,7 @@ A lightweight, single-page personal portfolio website built with React.
   - Placeholders re-render every 3 seconds with random width
 - Added changeable avatar based on theme
 - Added fetching recent projects from database
-  - Auto searching technologies in text and highlighting them 
+  - Auto searching technologies in text and highlighting them
   - Retry connection with server when error occurs
 - Added Node.js server on Heroku
 - Added MySQL database on Heroku

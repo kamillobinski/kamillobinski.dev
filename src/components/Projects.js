@@ -36,12 +36,29 @@ class Projects extends React.Component {
   }
 
   componentDidMount() {
-    axios.get(route).then((res) => {
-      if (res.data !== null) {
-        isContent = true;
-        this.setState({ projectsData: res.data });
-      }
-    });
+    this.getData();
+  }
+
+  sleep(time) {
+    return new Promise((resolve) => setTimeout(resolve, time));
+  }
+
+  getData() {
+    axios
+      .get(route)
+      .then((res) => {
+        if (res.data !== null) {
+          isContent = true;
+          this.setState({ projectsData: res.data });
+        }
+      })
+      // When an error occurs, it will try to connect with
+      // server every 3 seconds
+      .catch((error) => {
+        this.sleep(3000).then(() => {
+          this.getData();
+        });
+      });
   }
 
   scanTextForTechnologies(text) {

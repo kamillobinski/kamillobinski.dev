@@ -6,6 +6,24 @@
   right: 10px;
 }
 
+.switch-outer-icon-light {
+  fill: var(--text-color);
+  height: 17.5px;
+  float: left;
+  display: flex;
+  margin-right: 7px;
+  align-items: center;
+}
+
+.switch-outer-icon-dark {
+  fill: var(--text-color);
+  height: 17.5px;
+  float: right;
+  display: flex;
+  margin-left: 7px;
+  align-items: center;
+}
+
 .switch-outer span {
   color: var(--text-color);
   font-size: 16px;

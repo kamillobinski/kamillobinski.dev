@@ -6,7 +6,7 @@ import axios from "axios";
 import "../style/Projects.css";
 
 const projectsTitle = "Recent Projects";
-const route = "https://vast-plains-91564.herokuapp.com/projects";
+const route = "https://kamillobinski.herokuapp.com/projects";
 const projectsButtonText = "More on Github >";
 const projectsButtonUrl = "https://github.com/kamillobinski";
 var isContent = false;

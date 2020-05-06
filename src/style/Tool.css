@@ -1,5 +1,6 @@
 .tool:hover {
-  color: var(--primary-color);
+  color: var(--highlight-text-color);
+  font-weight: 400;
   transition: 0.15s ease-out;
   cursor: default;
 }

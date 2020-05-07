@@ -10,7 +10,7 @@
 }
 
 .social-media a:hover {
-  fill: var(--primary-color);
+  fill: var(--highlight-text-color);
   width: 20px;
   height: 20px;
   transition: 0.2s ease-in;

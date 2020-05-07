@@ -2,6 +2,7 @@ import React from "react";
 import Title from "./Title";
 import ButtonMore from "./ButtonMore";
 import ContentPlaceholder from "./ContentPlaceholder";
+import Message from "./Message";
 import axios from "axios";
 import "../style/Projects.css";
 
@@ -91,7 +92,10 @@ class Projects extends React.Component {
             </a>
           ))
         ) : (
-          <ContentPlaceholder quantity="6" />
+          <div>
+            <Message text="Collecting data" />
+            <ContentPlaceholder quantity="6" />
+          </div>
         )}
         <ButtonMore content={projectsButtonText} link={projectsButtonUrl} />
       </div>

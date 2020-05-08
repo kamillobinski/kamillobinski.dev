@@ -14,7 +14,6 @@ class ChangeTheme extends React.Component {
     document
       .getElementsByTagName("HTML")[0]
       .setAttribute("data-theme", localStorage.getItem("theme"));
-    console.log(this.state.checked);
     if (this.state.checked === true) {
       this.setState({ isDarkThemeEnabled: true });
     } else if (this.state.checked === false) {
@@ -70,8 +69,6 @@ class ChangeTheme extends React.Component {
             fill: this.state.isDarkThemeEnabled ? "#932eff" : "#7a7c80",
           }}
         >
-          {" "}
-          {console.log("test: " + this.state.isDarkThemeEnabled)}
           <ThemeDark width="13px" height="13px" />
         </span>
       </div>

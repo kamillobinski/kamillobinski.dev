@@ -13,7 +13,7 @@ class SocialMedia extends React.Component {
   render() {
     return (
       <div className="social-media">
-        <a href={"mailto: " + gmailAccount}>
+        <a href={"mailto:" + gmailAccount}>
           <CopyToClipboard text={gmailAccount}>
             <span>
               <Gmail width="18" height="18" />

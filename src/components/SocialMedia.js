@@ -7,13 +7,13 @@ import "../style/SocialMedia.css";
 const githubUrl = "https://github.com/kamillobinski";
 const linkedinUrl = "https://www.linkedin.com/in/kamillobinski/?locale=en_US";
 const twitterUrl = "https://twitter.com/kamillobinski";
-const gmailAccount = "kamilobinski@gmail.com";
+const gmailAccount = "kamil.lobinski@gmail.com";
 
 class SocialMedia extends React.Component {
   render() {
     return (
       <div className="social-media">
-        <a href="mailto: kamilobinski@gmail.com">
+        <a href={"mailto: " + gmailAccount}>
           <CopyToClipboard text={gmailAccount}>
             <span>
               <Gmail width="18" height="18" />

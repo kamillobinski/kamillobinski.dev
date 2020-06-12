@@ -3,6 +3,7 @@ import Title from "./Title";
 import ButtonMore from "./ButtonMore";
 import ContentPlaceholder from "./ContentPlaceholder";
 import Message from "./Message";
+import { TECHNOLOGIES } from "./MappingObjects";
 import axios from "axios";
 import "../style/Projects.css";
 
@@ -11,22 +12,6 @@ const route = "https://kamillobinski.herokuapp.com/projects";
 const projectsButtonText = "More on Github >";
 const projectsButtonUrl = "https://github.com/kamillobinski";
 var isContent = false;
-
-const highlight = "<span class='highlight'>";
-const closeHighlight = "</span>";
-
-var mappingObjects = {
-  JavaFX: highlight + "JavaFX" + closeHighlight,
-  Java: highlight + "Java" + closeHighlight,
-  Hibernate: highlight + "Hibernate" + closeHighlight,
-  React: highlight + "React" + closeHighlight,
-  Node: highlight + "Node" + closeHighlight,
-  MySQL: highlight + "MySQL" + closeHighlight,
-  Python: highlight + "Python" + closeHighlight,
-  Pygame: highlight + "Pygame" + closeHighlight,
-  Dart: highlight + "Dart" + closeHighlight,
-  Flutter: highlight + "Flutter" + closeHighlight,
-};
 
 class Projects extends React.Component {
   constructor(props) {
@@ -63,9 +48,9 @@ class Projects extends React.Component {
   }
 
   scanTextForTechnologies(text) {
-    var regExp = new RegExp(Object.keys(mappingObjects).join("|"), "gi");
+    var regExp = new RegExp(Object.keys(TECHNOLOGIES).join("|"), "gi");
     var changedText = text.replace(regExp, function (matched) {
-      return mappingObjects[matched];
+      return TECHNOLOGIES[matched];
     });
     var highlightedText = (
       <span dangerouslySetInnerHTML={{ __html: changedText }} />

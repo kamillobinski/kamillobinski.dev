@@ -1,0 +1,40 @@
+const HIGHLIGHT = "<span class='highlight'>";
+const CLOSE_HIGHLIGHT = "</span>";
+
+export const TECHNOLOGIES = {
+  // Java
+  JavaFX: HIGHLIGHT + "JavaFX" + CLOSE_HIGHLIGHT,
+  Java: HIGHLIGHT + "Java" + CLOSE_HIGHLIGHT,
+  Spring: HIGHLIGHT + "Spring" + CLOSE_HIGHLIGHT,
+  JPA: HIGHLIGHT + "JPA" + CLOSE_HIGHLIGHT,
+  Hibernate: HIGHLIGHT + "Hibernate" + CLOSE_HIGHLIGHT,
+
+  // Tools
+  Maven: HIGHLIGHT + "Maven" + CLOSE_HIGHLIGHT,
+
+  // Web
+  HTML: HIGHLIGHT + "HTML" + CLOSE_HIGHLIGHT,
+  CSS: HIGHLIGHT + "CSS" + CLOSE_HIGHLIGHT,
+  PHP: HIGHLIGHT + "PHP" + CLOSE_HIGHLIGHT,
+  JavaScript: HIGHLIGHT + "JavaScript" + CLOSE_HIGHLIGHT,
+  JS: HIGHLIGHT + "JS" + CLOSE_HIGHLIGHT,
+  React: HIGHLIGHT + "React" + CLOSE_HIGHLIGHT,
+  Node: HIGHLIGHT + "Node" + CLOSE_HIGHLIGHT,
+  Express: HIGHLIGHT + "Express" + CLOSE_HIGHLIGHT,
+
+  // Python
+  Python: HIGHLIGHT + "Python" + CLOSE_HIGHLIGHT,
+  Pygame: HIGHLIGHT + "Pygame" + CLOSE_HIGHLIGHT,
+
+  // Databases
+  MySQL: HIGHLIGHT + "MySQL" + CLOSE_HIGHLIGHT,
+  SQL: HIGHLIGHT + "SQL" + CLOSE_HIGHLIGHT,
+
+  // Flutter
+  Dart: HIGHLIGHT + "Dart" + CLOSE_HIGHLIGHT,
+  Flutter: HIGHLIGHT + "Flutter" + CLOSE_HIGHLIGHT,
+
+  // Git
+  Git: HIGHLIGHT + "Git" + CLOSE_HIGHLIGHT,
+  GITHUB: HIGHLIGHT + "Github" + CLOSE_HIGHLIGHT,
+};

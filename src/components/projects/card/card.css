@@ -1,0 +1,10 @@
+.card {
+  width: calc(50% - 50px);
+  height: calc(100% - 50px);
+  max-width: 50%;
+  overflow: visible;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 25px;
+}

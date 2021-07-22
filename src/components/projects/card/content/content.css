@@ -1,0 +1,10 @@
+.card .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height: calc(80%);
+  max-height: 80%;
+  margin-left: 10%;
+  margin-bottom: calc(20% - 84px);
+}

@@ -1,0 +1,41 @@
+.cp-preview {
+  width: 50%;
+  height: 100%;
+  max-width: 100%;
+  overflow: visible;
+  position: relative;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.cp-preview .line {
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+
+.cp-preview .line .large {
+  z-index: 1;
+}
+
+.cp-preview .line .large img {
+  width: 100%;
+}
+
+.cp-preview .line .medium {
+  z-index: 1;
+}
+
+.cp-preview .line .medium img {
+  width: 90%;
+}
+
+.cp-preview .line .small {
+  z-index: 1;
+  text-align: center;
+}
+
+.cp-preview .line .small img {
+  width: 35%;
+}

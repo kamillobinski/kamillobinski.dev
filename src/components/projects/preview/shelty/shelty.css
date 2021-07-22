@@ -1,0 +1,41 @@
+.shelty-preview {
+  width: 50%;
+  height: 100%;
+  max-width: 100%;
+  overflow: visible;
+  position: relative;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.shelty-preview .line {
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+
+.shelty-preview .line .large {
+  z-index: 1;
+}
+
+.shelty-preview .line .large img {
+  width: 100%;
+}
+
+.shelty-preview .line .medium {
+  z-index: 1;
+}
+
+.shelty-preview .line .medium img {
+  width: 90%;
+}
+
+.shelty-preview .line .small {
+  z-index: 1;
+  text-align: center;
+}
+
+.shelty-preview .line .small img {
+  width: 35%;
+}

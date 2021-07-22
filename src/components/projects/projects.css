@@ -1,0 +1,7 @@
+.projects {
+  width: calc(100vw - 75px);
+  height: calc(100vh - 50px);
+  position: relative;
+  overflow: visible;
+  margin: 25px;
+}

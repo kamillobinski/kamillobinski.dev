@@ -1,0 +1,9 @@
+.intro .container .title {
+  text-align: center;
+}
+
+.intro .container .title span {
+  font-family: "RalewayRegular";
+  font-size: 25px;
+  letter-spacing: 2px;
+}

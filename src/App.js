@@ -48,7 +48,6 @@ class App extends React.Component {
           <Projects scrollPos={this.state.scrollPos} scrollLimit={this.state.scrollLimit} />
           <Skills />
           <Social />
-          <ScrollMini scrollPos={this.state.scrollPos} scrollLimit={this.state.scrollLimit} />
         </div>
       </ParallaxProvider>
     )

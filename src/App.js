@@ -7,6 +7,7 @@ import './assets/fonts/fonts.css';
 import './app.css';
 import Projects from "./components/projects/Projects";
 import Skills from "./components/skills/Skills";
+import Social from "./components/social/Social";
 
 class App extends React.Component {
   constructor(props) {
@@ -46,6 +47,7 @@ class App extends React.Component {
           <About />
           <Projects scrollPos={this.state.scrollPos} scrollLimit={this.state.scrollLimit} />
           <Skills />
+          <Social />
           <ScrollMini scrollPos={this.state.scrollPos} scrollLimit={this.state.scrollLimit} />
         </div>
       </ParallaxProvider>

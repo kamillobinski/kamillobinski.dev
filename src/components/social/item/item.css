@@ -1,0 +1,12 @@
+.social .container .item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.social .container .item svg:hover {
+  opacity: 0.4;
+  cursor: pointer;
+  animation: bounce;
+  animation-duration: 1s;
+}

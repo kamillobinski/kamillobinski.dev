@@ -4,4 +4,7 @@
   position: relative;
   overflow: visible;
   margin: 25px;
+  max-width: 1845px;
+  margin-left: auto;
+  margin-right: auto;
 }

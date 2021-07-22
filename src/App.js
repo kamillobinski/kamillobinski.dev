@@ -1,25 +1,31 @@
 import React from "react";
 import Intro from './components/intro/Intro';
 import About from './components/about/About';
-import ScrollMini from './components/scroll/ScrollMini';
-import { ParallaxProvider } from 'react-scroll-parallax';
-import './assets/fonts/fonts.css';
-import './app.css';
 import Projects from "./components/projects/Projects";
 import Skills from "./components/skills/Skills";
 import Social from "./components/social/Social";
+import { ParallaxProvider } from 'react-scroll-parallax';
+import './assets/fonts/fonts.css';
+import './app.css';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { scrollPos: "", scrollLimit: "" };
+    this.state = { scrollPos: 0, scrollLimit: 0 };
   }
 
   componentDidMount() {
-    window.addEventListener('scroll', this.updateScrollPos);
-    window.addEventListener('scroll', this.updateScrollLimit);
-    window.addEventListener('resize', this.updateScrollPos);
-    window.addEventListener('resize', this.updateScrollLimit);
+    window.addEventListener('scroll', () => {
+      this.updateScrollPos();
+      this.updateScrollLimit();
+    });
+    window.addEventListener('resize', () => {
+      this.updateScrollPos();
+      this.updateScrollLimit();
+    });
+    window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+    }
   }
 
   componentWillUnmount() {

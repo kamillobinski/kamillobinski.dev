@@ -10,3 +10,36 @@
   animation: bounce;
   animation-duration: 1s;
 }
+
+/* Tablets, Ipads (portrait) */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .social .container .item svg {
+    height: 40px;
+  }
+}
+
+/* Device = Low Resolution Tablets, Mobiles (Landscape) */
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .social .container .item {
+    padding: 0;
+    font-size: 0;
+    width: 90%;
+  }
+
+  .social .container .item svg {
+    height: 30px;
+  }
+}
+
+/* Device = Most of the Smartphones Mobiles (Portrait) */
+@media all and (max-width: 480px) {
+  .social .container .item {
+    padding: 0;
+    font-size: 0;
+    width: 90%;
+  }
+
+  .social .container .item svg {
+    height: 30px;
+  }
+}

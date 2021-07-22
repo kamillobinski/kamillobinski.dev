@@ -14,5 +14,36 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 50%;
+  width: 60%;
+  max-width: 1920px;
+}
+
+/* Device = Laptops, Desktops */
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .skills .container {
+    width: 80%;
+  }
+}
+
+/* Tablets, Ipads (portrait) */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .skills .container {
+    width: 80%;
+  }
+}
+
+/* Device = Low Resolution Tablets, Mobiles (Landscape) */
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .skills .container {
+    width: calc(100% - 20px);
+    margin: 0 10px 0 10px;
+  }
+}
+
+/* Device = Most of the Smartphones Mobiles (Portrait) */
+@media all and (max-width: 480px) {
+  .skills .container {
+    width: calc(100% - 10px);
+    margin: 0 5px 0 5px;
+  }
 }

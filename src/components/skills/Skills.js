@@ -6,11 +6,9 @@ import './skills.css';
 
 const LABEL = "SKILLS";
 
-const FRONTEND_SKILLS = ["JavaScript", "React.js", "Node.js"];
+const FRONTEND_DB_SKILLS = ["JavaScript", "React.js", "Node.js", "", "SQL", "MySQL"];
 const BACKEND_SKILLS = ["Java", "Spring", "Spring Data", "Hibernate", "Maven", "JUnit", "REST API"];
-const DATABASE_SKILLS = ["SQL", "MySQL"];
-const TOOLS = ["Git", "Heroku", "Netlify"];
-const IDE = ["IntelliJ IDEA", "VS Code"];
+const TOOLS = ["Git", "Heroku", "Netlify", "IntelliJ IDEA", "VS Code"];
 
 const Skills = () => {
     return (
@@ -21,10 +19,8 @@ const Skills = () => {
                 </Row>
                 <Row style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                     <Column skills={BACKEND_SKILLS} />
-                    <Column skills={FRONTEND_SKILLS} />
-                    <Column skills={DATABASE_SKILLS} />
+                    <Column skills={FRONTEND_DB_SKILLS} />
                     <Column skills={TOOLS} />
-                    <Column skills={IDE} />
                 </Row>
             </div>
         </div >

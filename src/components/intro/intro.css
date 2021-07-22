@@ -6,6 +6,7 @@
   display: block;
   position: relative;
   overflow-x: hidden;
+  min-height: 250px;
 }
 
 .intro .container {

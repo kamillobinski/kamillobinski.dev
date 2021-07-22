@@ -2,4 +2,36 @@
   font-family: "RalewayBold";
   font-size: 25px;
   color: rgb(51, 51, 51);
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+}
+
+/* Device = Laptops, Desktops */
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .card .type {
+    font-size: 24px;
+  }
+}
+
+/* Tablets, Ipads (portrait) */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .card .type {
+    font-size: 20px;
+  }
+}
+
+/* Device = Low Resolution Tablets, Mobiles (Landscape) */
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .card .type {
+    font-size: 20px;
+  }
+}
+
+/* Device = Most of the Smartphones Mobiles (Portrait) */
+@media all and (max-width: 480px) {
+  .card .type {
+    font-size: 20px;
+  }
 }

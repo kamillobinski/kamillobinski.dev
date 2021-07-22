@@ -8,3 +8,31 @@
   line-height: 1.6;
   letter-spacing: 2px;
 }
+
+/* Device = Laptops, Desktops */
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .about .container .text span {
+    font-size: 20px;
+  }
+}
+
+/* Tablets, Ipads (portrait) */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .about .container .text span {
+    font-size: 16px;
+  }
+}
+
+/* Device = Low Resolution Tablets, Mobiles (Landscape) */
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .about .container .text span {
+    font-size: 16px;
+  }
+}
+
+/* Device = Most of the Smartphones Mobiles (Portrait) */
+@media all and (max-width: 480px) {
+  .about .container .text span {
+    font-size: 16px;
+  }
+}

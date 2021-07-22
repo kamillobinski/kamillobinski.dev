@@ -1,9 +1,0 @@
-@import url("../utils/global.css");
-
-.title {
-  color: var(--title-color);
-  font-size: 24px;
-  font-weight: 400;
-  font-family: "Gill Sans Nova", sans-serif;
-  margin-bottom: 5px;
-}

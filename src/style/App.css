@@ -1,6 +1,0 @@
-@import url("../utils/global.css");
-
-body {
-  background-color: var(--background-color);
-  transition: 0.1s ease-in;
-}

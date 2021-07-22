@@ -1,0 +1,13 @@
+.about .container .label {
+  position: relative;
+  margin: 0;
+  text-align: left;
+  z-index: 1;
+  width: fit-content;
+}
+
+.about .container .label span {
+  font-family: "RalewayBold";
+  font-size: 120px;
+  opacity: 0.1;
+}

@@ -1,0 +1,10 @@
+.about .container .text {
+  position: relative;
+}
+
+.about .container .text span {
+  font-family: "RalewayRegular";
+  font-size: 25px;
+  line-height: 1.6;
+  letter-spacing: 2px;
+}

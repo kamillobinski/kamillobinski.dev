@@ -6,6 +6,7 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 import './assets/fonts/fonts.css';
 import './app.css';
 import Projects from "./components/projects/Projects";
+import Skills from "./components/skills/Skills";
 
 class App extends React.Component {
   constructor(props) {
@@ -44,6 +45,7 @@ class App extends React.Component {
           <Intro />
           <About />
           <Projects scrollPos={this.state.scrollPos} scrollLimit={this.state.scrollLimit} />
+          <Skills />
           <ScrollMini scrollPos={this.state.scrollPos} scrollLimit={this.state.scrollLimit} />
         </div>
       </ParallaxProvider>

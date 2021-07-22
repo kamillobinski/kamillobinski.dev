@@ -3,13 +3,16 @@ import Intro from './components/intro/Intro';
 import About from './components/about/About';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import './assets/fonts/fonts.css';
+import './app.css';
 
 class App extends React.Component {
   render() {
     return (
       <ParallaxProvider>
-        <Intro />
-        <About />
+        <div className="app">
+          <Intro />
+          <About />
+        </div>
       </ParallaxProvider>
     )
   }

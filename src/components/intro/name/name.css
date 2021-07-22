@@ -1,8 +1,6 @@
 .intro .container .name {
   text-align: center;
   margin-bottom: 5px;
-  animation: animate__pulse;
-  animation-duration: 2s;
 }
 
 .intro .container .name span {

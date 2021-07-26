@@ -4,7 +4,7 @@ import Text from './text/Text';
 import "./about.css";
 
 const LABEL = "ABOUT ME";
-const TEXT = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam";
+const TEXT = "I'm a Software Engineer specialized in backend development. Currently I'm seeking a challenging job where technical and interpersonal skills can contribute to the success of the organization and be further developed.";
 
 const About = () => {
     return (

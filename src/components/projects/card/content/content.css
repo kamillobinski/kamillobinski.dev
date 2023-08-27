@@ -1,8 +1,0 @@
-.card .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: left;
-  height: 80%;
-  margin-left: 10%;
-}
